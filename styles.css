@@ -132,7 +132,7 @@ img.avatar{
   }
   
   .project:last-child {
-    border-bottom: 1px solid lightgrey;
+    border-bottom: none;
   }
   
   .project-title-container {
