@@ -131,10 +131,6 @@ img.avatar{
 
   }
   
-  .project:last-child {
-    border-bottom: none;
-  }
-  
   .project-title-container {
     display: flex;
     justify-content: space-between;
