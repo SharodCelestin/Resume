@@ -76,10 +76,11 @@ img.avatar{
     display: flex;
     align-items: center;
     flex-grow: 0.1;
+    Margin-right:3px;
   }
   
   .link-item svg {
-    margin-right: 6px;
+    margin-right: 3px;
   }
   
 /***********************************
