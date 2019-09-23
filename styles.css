@@ -25,6 +25,7 @@ a{
 
 a:hover {
     text-decoration: underline;
+    color: blue;
 }
 
 .container{
@@ -176,5 +177,9 @@ img.avatar{
   .project-name {
     font-weight: bold;
     line-height: 1.2;
+    text-indent: 5px;
   }
   
+  .project-description {
+    text-indent: 10px;
+  }
