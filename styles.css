@@ -69,13 +69,13 @@ img.avatar{
 
 .links {
     display: flex;
-    margin: 10px 3px 20px 0;
+    margin: 10px 0 20px 0;
   }
   
   .link-item {
     display: flex;
     align-items: center;
-    flex-grow: 0.1;
+    flex-grow: 0.3;
     Margin-right:3px;
   }
   
