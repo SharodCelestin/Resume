@@ -29,27 +29,44 @@ a:hover {
 
 .container{
     max-width: 960px;
-    margin: 40px auto;
+    margin: 60px auto;
     padding: 32px;
     background: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-section{
-    display:grid;
-    grid-template-columns: 1fr 4fr;
-    grid-gap: 20px;
-    padding: 24px;
-    border-bottom: 1px solid lightgrey;
+.header-section{
+  display:grid;
+  grid-template-rows: fit-content;
+  padding: 24px;
+  border-bottom: 1px solid lightgrey;
 }
-
-section:last-child{
-    border-bottom: none;
+.location-section{
+  display:grid;
+  grid-template-rows: fit-content;
+  padding: 24px;
+  border-bottom: 1px solid lightgrey;
 }
-
+.education-section{
+  display:grid;
+  grid-template-rows: fit-content;
+  padding: 24px;
+  border-bottom: 1px solid lightgrey;
+}
+.skills-section{
+  display:grid;
+  grid-template-rows: fit-content;
+  padding: 24px;
+  border-bottom: 1px solid lightgrey;
+}
+.projects-section{
+  display:grid;
+  grid-template-rows: fit-content;
+  padding: 24px;
+}
 .section-title{
-    font-weight:bold;
-    font-size:18px;
+  font-weight:bold;
+  text-decoration: underline;
+  font-size:18px;
 }
 /* Main Info */
 
@@ -66,43 +83,55 @@ img.avatar{
     font-weight:300;
     color: #236fb2;
 }
+.contact-title{
+  justify-content: left;
+  text-decoration: underline;
+  font-weight:bold;
+}
 
 .links {
     display: flex;
+    justify-content: left;
     margin: 10px 0 20px 0;
   }
   
   .link-item {
     display: flex;
     align-items: center;
-    flex-grow: 0.3;
-    Margin-right:3px;
+    flex-grow: 0.1;
   }
   
   .link-item svg {
-    margin-right: 3px;
+    margin-right: 6px;
   }
   
+  .location-title{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight:bold;
+  }
 /***********************************
   * =Education
   ***********************************/
 
-
+  .education-title-container{
+    grid-template-columns: 1fr 1fr;
+  }
   .education-title {
-    font-size: 14px;
+    align-content: center;
+    justify-content: center;
+    font-size:14px;
   }
 
   .bachelors-title {
     font-size: 14px;
   }
   
-  .graduation-year {
-    font-size: 14px;
-
-  }
   .transcript {
     font-size: 14px;
-
+    color: blue;
+    text-decoration: underline;
   }
 
 
@@ -120,6 +149,11 @@ img.avatar{
   .skills-container ul {
     margin-left: 20px;
     list-style-type: disc;
+    font-weight: bold;
+  }
+  .skills-container ul li {
+    font-weight: normal;
+    text-decoration: none;
   }
 
   /***********************************
