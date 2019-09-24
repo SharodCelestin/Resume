@@ -169,11 +169,16 @@ img.avatar{
     margin-bottom: 24px;
 
   }
-  
+
   .project-title-container {
     display:flex;
     justify-content: space-between;
     font-size: 18px;
+  }
+  .github{
+    font-size: 14px;
+    color: blue;
+    text-decoration: underline;
   }
   
   .project-name {
